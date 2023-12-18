@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+img {
+  width: 100%;
+}
+.img-container {
+  width: 90%;
+}
+.images {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main > div {
+  display: inline-block;
+  border: 2px black solid;
+  border-radius: 5px;
+  width: 350px;
+  padding: 1rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

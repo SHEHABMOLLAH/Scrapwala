@@ -1,0 +1,19 @@
+.container {
+  padding-top: clamp(5rem, 5vw, 8rem);
+  padding-bottom: clamp(5rem, 5vw, 8rem);
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 40px;
+}
+.cat_container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+}
